@@ -35,7 +35,7 @@ This application takes user input as the start of a story and generates a plausi
 
 ```bash
 git clone https://github.com/komalbaid/Gen_ai_project.git
-cd story-generator-genai
+cd Gen_ai_project
 
 - **Streamlit**
 - **GPT-2 Pretrained Model**
