@@ -1,25 +1,42 @@
 # Gen_ai_project
-# 🧠 MCQ Generator using Generative AI
+# 🧠 Story Generator using Generative AI
 
-This project is a smart **Multiple Choice Question (MCQ) Generator** built using **Generative AI (GPT-2)**. It takes a topic or sentence as input and generates relevant MCQs, making it useful for educators, students, and e-learning platforms.
+This project is a Story Generator built using Generative AI models like GPT-2. It allows users to enter a sentence or a phrase, and the system generates a creative continuation of the story. This tool showcases how transformer-based language models can be used for creative writing and storytelling tasks.
 
----
+## 📌 Project Overview
 
-## 🚀 Features
+This application takes user input as the start of a story and generates a plausible and imaginative continuation using a pre-trained GPT-2 model from Hugging Face's Transformers library. A simple and intuitive web interface is provided using Streamlit.
 
-- ✅ Generates MCQs from any given topic
-- ✅ Uses GPT-2 from HuggingFace Transformers
-- ✅ Web-based interface using Streamlit
-- ✅ Returns multiple choice options
-- ✅ Easily customizable and extendable
+## 🔍 Features
 
----
+- Generate short story continuations from user input.
+- Display multiple generated story versions.
+- Web-based interface with Streamlit.
+- Lightweight, fast, and easy to deploy.
 
+## 🚀 How It Works
 
-## 🛠️ Tech Stack
+1. The user enters a prompt (first line or paragraph).
+2. The GPT-2 model processes the prompt.
+3. The model generates creative story continuations.
+4. The results are displayed in real time on the interface.
 
-- **Python**
-- **HuggingFace Transformers**
+## 🛠️ Technologies Used
+
+- Python
+- HuggingFace Transformers
+- GPT-2 Language Model
+- Streamlit (Web UI)
+- Google Colab / Jupyter Notebook for testing
+
+## 💻 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/komalbaid/Gen_ai_project.git
+cd story-generator-genai
+
 - **Streamlit**
 - **GPT-2 Pretrained Model**
 - **Google Colab / Jupyter Notebook**
